@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 export default function CartItem({item,value}) {
     const { id, title, img, price, total, count} =item;
@@ -49,6 +49,8 @@ export default function CartItem({item,value}) {
   
        </div>
    </div>
+
+// https://www.youtube.com/watch?v=O-fdE_mDR8w
     );
 }
 
